@@ -54,6 +54,18 @@ CSS:
 }
 ```
 
+CDN:
+
+```css
+@font-face {
+  font-family: "Yon Mono";
+  src: url("https://cdn.jsdelivr.net/gh/yon-language/yon-fonts@v2.1/fonts/webfonts/YonMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+```
+
+Replace `YonMono-Regular` with the name of any file in `fonts/webfonts/` to load another family or weight.
+
 ## License
 
 The fonts are released under the [SIL Open Font License 1.1](OFL.txt): free to use, embed, modify and redistribute, including in commercial work; they cannot be sold on their own.
